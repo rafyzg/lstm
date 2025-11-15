@@ -5,10 +5,6 @@
 
 **Project Name**: LSTM Frequency Extraction from Noisy Signals
 
-**Version**: 1.0
-
-**Date**: 2024
-
 **Purpose**: Develop and train an LSTM neural network capable of extracting specific frequency components from noisy mixed signals based on a frequency selector command.
 
 ### 2. Objectives
@@ -108,13 +104,6 @@
 
 ### 6. Constraints
 
-#### 6.1 Technical Constraints
-- Must use PyTorch framework
-- Must support macOS Metal (MPS)
-- Sequence length L must be configurable
-- Model must maintain hidden state across chunks
-
-#### 6.2 Data Constraints
 - Fixed frequencies: 1, 3, 5, 7 Hz
 - Fixed sampling rate: 1000 Hz
 - Fixed signal duration: 10 seconds
@@ -136,14 +125,7 @@
 6. ✅ Visualization plots (`plots/*.png`)
 7. ✅ Documentation (README, PRD, ARCHITECTURE)
 
-### 9. Timeline
-
-- **Phase 1**: Data generation and model design (Completed)
-- **Phase 2**: Training implementation (Completed)
-- **Phase 3**: Evaluation and visualization (Completed)
-- **Phase 4**: Documentation and optimization (Current)
-
-### 10. Risk Assessment
+### 9. Risk Assessment
 
 | Risk | Impact | Mitigation |
 |------|--------|------------|
